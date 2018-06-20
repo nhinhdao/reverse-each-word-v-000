@@ -1,3 +1,6 @@
 def reverse_each_word(text)
-      text.map { |e|  e.reverse}
+      for i in text do
+            i.reverse
+      end
+      end
 end
